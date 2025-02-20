@@ -1,11 +1,16 @@
 {
   "Types": {
-    "Output": "Output",
-    "LedModule": "7-Segment Display",
-    "Stepper": "Stepper",
-    "Servo": "Servo",
-    "LcdDisplay": "LCD Display",
-    "ShiftRegister": "Ouptut Shift Register",
+    "MobiFlight": {
+      "OutputConfig": {
+        "Output": "Output",
+        "LedModule": "7-Segment Display",
+        "Stepper": "Stepper",
+        "Servo": "Servo",
+        "LcdDisplay": "LCD Display",
+        "ShiftRegister": "Output Shift Register",
+        "CustomDevice": "Custom Device"
+      }
+    },
     "InputShiftRegister": "Input Shift Register",
     "Button": "Button",
     "Encoder": "Encoder",
