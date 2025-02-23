@@ -1,12 +1,6 @@
 ﻿using MobiFlight.Base;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
-using System.Xml.Schema;
-using System.Xml.Serialization;
 
 namespace MobiFlight.OutputConfig
 {
@@ -61,7 +55,7 @@ namespace MobiFlight.OutputConfig
             return $"{Address}:{Pin.Replace("Output ", ",").Replace("|", "").TrimStart(',')}";
         }
 
-        public object Clone()
+        public override object Clone()
         {
             ShiftRegister clone = new ShiftRegister();
             clone.Pin = Pin;
